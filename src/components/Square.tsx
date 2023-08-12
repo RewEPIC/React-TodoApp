@@ -9,9 +9,9 @@ type props = {
 
 function Square({ title, onClick, children,className }: props) {
     return (
-        <div className={`w-32 h-32 flex flex-col justify-center items-center text-white rounded-md ${className}`} onClick={onClick}>
-            <div>{ title }</div>
-            <div className="flex flex-col w-full">{ children }</div>
+        <div className={`flex flex-col justify-center text-center break-words w-64 h-64 text-white rounded-md ${className}`} onClick={onClick}>
+            <div className="p-6">{ title }</div>
+            <div>{ children }</div>
         </div>
     )
 }
