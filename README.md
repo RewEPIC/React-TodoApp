@@ -2,7 +2,7 @@
 ### Frontend framework
 - React
 - Typescript
-## UI Designs are enhanced with
+### UI Designs are enhanced with
 - TailwindCSS
 - React Hot Toast
 - React Icons
