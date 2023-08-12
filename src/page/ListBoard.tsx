@@ -18,7 +18,7 @@ const ListBoard = ({ status }: Props) => {
     <div className="flex justify-center flex-wrap gap-x-16 gap-y-14">
       {board.filter((board) => status === BoardStatus.ALL || board.status === status).map((board) => (
         <Square key={board.id} title={board.name} className={`${isDone(board.status) ? 'bg-emerald-400' : 'bg-rose-400'} relative`}>
-          <button className="absolute top-4 left-4 hover:text-slate-300" 
+          <button className="absolute top-4 left-4 hover:text-slate-400" 
                   onClick={() => onStatus(board.id)}>
                     {isDone(board.status) ? <IoMdThumbsDown size={24}/> : <IoMdThumbsUp size={24}/>}
           </button>

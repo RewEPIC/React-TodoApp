@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css';
 import Layout, { BoardStatus } from './page/Layout';
 import ListBoard from "./page/ListBoard";
 

@@ -5,7 +5,7 @@ interface Props {
     children:  ReactNode
 }
 
-const className = "w-full h-full font-bold hover:bg-emerald-600 flex justify-center p-8 transition text-white"
+const className = "w-full h-full font-semibold hover:bg-emerald-600 flex justify-center p-8 transition text-white"
 
 const NavItem = ({to,children} : Props) => {
     return (

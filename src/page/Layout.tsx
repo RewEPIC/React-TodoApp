@@ -19,7 +19,10 @@ const Layout = () => {
         const name = nameRef.current?.value
         if (!name || !Boolean(name)) toast.error("You should enter any to-do title!",{ duration: 1000 })
         else if (name.length > 128) toast.error("Text is limit up to 128!",{ duration: 1000 })
-        else setBoard((boards) => [ ...boards, { id: board.length, name: nameRef.current?.value, status: BoardStatus.NOT_DONE } ])
+        else {
+            setBoard((boards) => [ ...boards, { id: board.length, name: nameRef.current?.value, status: BoardStatus.NOT_DONE } ])
+            toast.success("You add not done to-do success!",{ duration: 1000 })    
+        }    
     }
     return (
         <BoardContext.Provider value={{board, setBoard}}>
