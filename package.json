@@ -1,6 +1,6 @@
 {
   "homepage": "http://rewepic.github.io/React-TodoApp",
-  "name": "react-typescript-proj",
+  "name": "react-todoapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
