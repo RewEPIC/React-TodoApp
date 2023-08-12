@@ -1,4 +1,6 @@
 # Beatify Todo App 
+## Preview Website
+https://rewepic.github.io/React-TodoApp/
 ### Frontend framework
 - React
 - Typescript
